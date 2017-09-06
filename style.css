@@ -99,3 +99,8 @@ main.sec2 .text2 {
   text-align: center;
   width: 55%;
   margin: 30px auto;
+}
+
+main.sec2 .image_persons {
+  text-align: center;
+}
