@@ -2,8 +2,21 @@ body {
   margin: 0;
 }
 
+.buttons {
+  text-align: center;
+}
+.buttons a {
+  display: inline-block;
+  margin: 0 3px 0;
+  font-family: arial;
+  font-size: 14px;
+}
+.margen-button{
+  margin-top: 50px;
+}
+
 .button {
-  padding: 10px 7px;
+  padding: 10px 14px;
   border-radius: 5px;
   text-decoration: none;
   color: white;
@@ -22,7 +35,6 @@ body {
   color: gray;
   background-color: white;
 }
-
 
 header.background1 {
   background-image: url("images/bg.jpeg");
@@ -72,11 +84,6 @@ header.background1 .content {
   margin: 30px auto 0;
 }
 
-header.background1 .buttons {
-  text-align: center;
-  margin-top: 50px;
-}
-
 header.background1 .text1 {
   font-family: arial;
   color: white;
@@ -86,28 +93,52 @@ header.background1 .text1 {
   margin: 30px auto;
 }
 
-main.sec2 {
+main {
   width: 60%;
-  margin: 30px auto;
-
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
 }
-main.sec2 .title2 {
+
+section {
+  width: 100%;
+  background-color: #f5f4f4;
+  border-top: 1px solid #d6d4d4;
+  border-bottom: 1px solid #d6d4d4;
+  padding: 50px 0;
+}
+
+.containerInfo {
+  width: 60%;
+  margin: 0 auto;
+}
+
+main .title2, section.info .containerInfo .title2 {
   font-family: arial;
   color: black;
   font-size: 16px;
   text-align: center;
-  margin-top: 70px;
 }
 
-main.sec2 .text2 {
+main .text2, section.info .containerInfo .text2 {
   font-family: arial;
   color: grey;
   font-size: 12px;
   text-align: center;
 }
 
-main.sec2 .image_persons img {
+main .image_persons {
+  width: 100%;
+  text-align: center;
+}
+
+main .image_persons img {
   width: 50%;
-  display: block;
-  margin: 0 auto;
+}
+
+section.info .containerInfo .button.blue {
+  text-align: center;
+}
+
+section.info .p {
+  margin-bottom: 500px;
 }
