@@ -80,27 +80,34 @@ header.background1 .buttons {
 header.background1 .text1 {
   font-family: arial;
   color: white;
+  font-size: 12px;
   text-align: center;
-  width: 55%;
+  width: 40%;
   margin: 30px auto;
 }
 
+main.sec2 {
+  width: 60%;
+  margin: 30px auto;
+
+}
 main.sec2 .title2 {
   font-family: arial;
   color: black;
+  font-size: 16px;
   text-align: center;
-  width: 55%;
-  margin: 30px auto;
+  margin-top: 70px;
 }
 
 main.sec2 .text2 {
   font-family: arial;
   color: grey;
+  font-size: 12px;
   text-align: center;
-  width: 55%;
-  margin: 30px auto;
 }
 
-main.sec2 .image_persons {
-  text-align: center;
+main.sec2 .image_persons img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
