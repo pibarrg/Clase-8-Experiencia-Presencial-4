@@ -152,23 +152,64 @@ section.info .p {
   float: left;
   text-align: left;
   padding-left: 200px;
+  padding-bottom: 50px;
 }
 
 .containerCS .subscribe {
   width: 20%;
   float: left;
   text-align: left;
-  padding-left: 200px;
+  padding-right: 200px;
 }
 
 #contacto {
-  font-weight: bold;
-  color: red;
+  font-size: 18px;
+  color: #696969;
+  font-family: Arial;
 }
 
 #desafio {
-  font-family: Arial;
-  font-size: 12px;
   font-weight: bold;
+  font-size: 12px;
   color: #696969;
+  font-family: Arial;
+  margin-bottom: 0px;
+}
+
+#direccion {
+  font-size: 12px;
+  color: #696969;
+  font-family: Arial;
+  margin: 0px;
+}
+
+#fono {
+  font-size: 12px;
+  color: #696969;
+  font-family: Arial;
+  margin-top: 0px;
+}
+
+#email {
+  font-size: 12px;
+  color: #1E90FF;
+  font-family: Arial;
+}
+
+#suscribete {
+  font-size: 18px;
+  color: #696969;
+  font-family: Arial;
+}
+
+#texto_suscribete {
+  font-size: 12px;
+      color: #696969;
+      font-family: Arial;
+      margin: 0px;
+      padding-bottom: 3px;
+}
+
+.buttons {
+  text-align: left;
 }
